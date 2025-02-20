@@ -21,26 +21,25 @@
 |メタルプレート|2個|
 |M3ネジ|8本|
 
-### 追加で必要な物を購入
+### 別途ご用意いただくもの
 
 | 名前 | 数 | 備考 |参考商品|
 |:-|---:|:-|:-|
 |Seeed Studio XIAO nRF52840 |2個|安価で入手性が高く、通信も安定しています。|[official](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) [amazon](https://www.amazon.co.jp/dp/B09T9VVQG7/)|
-|Kail Choc V2互換スイッチ|48個|個人的にDeepSeaMiniがおすすめ。Lofreeなども適合。ChocV1も一応刺さります。||
-|MX軸ロープロファイルキーキャップ|48個|MX軸なら通常キーキャップも一部適合。||
-|3.7Vリチウムポリマーバッテリー|2個|寸法xxxxx以下、ソケットのピッチ2.0mm　※ソケットの極性に注意！||
+|Kailh Choc V2互換スイッチ|48個|個人的にDeepSeaMiniがおすすめ。Lofreeなども適合。ChocV1も一応刺さります。|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/Kailh-Choc-V2%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) [kailhswitch](https://kailhswitch.net/products/kailh-deep-sea-silent-min-low-profile-keyboard-switch)|
+|MX軸ロープロファイルキーキャップ|48個|MX軸なら通常キーキャップも一部適合。|[amazon](https://www.amazon.co.jp/dp/B0BN1KCHG3/)|
+|3.7Vリチウムポリマーバッテリー|2個|厚さ6.3mm以下、ソケットのピッチ2.0mm　※ソケットの極性に注意！|[amazon](https://www.amazon.co.jp/dp/B08FD39Y5R/)|
 |USB-Cケーブル|2本|充電、ファームウェア書き込み用。何百回と抜き差しする事になるのでマグネット式がおすすめ。||
-|ケースの滑り止め|1式|グリップラスが評判良いです。テントするなら不要。||
-|テンティング用品|2セット|マグネット式スタンドor三脚orクランプアーム。テントしないなら不要。||
+|ケースの滑り止め|1式|グリップラスが評判良いです。テントするなら不要。|[amazon](https://www.amazon.co.jp/dp/B08C9Z2K4C/])
+|テンティング用品|2セット|マグネット式スタンドor三脚orクランプアーム。テントしないなら不要。|[cramp](https://www.amazon.co.jp/dp/B08LCZ2X7M/) [Magnet](https://www.amazon.co.jp/dp/B0CXPR9BMF/) [stand1](https://www.amazon.co.jp/dp/B0DKFMLWFX/) [stand2](https://www.amazon.co.jp/dp/B0B6DSD1RK/)|
 
 ### 道具類
 
-| 名前 | 備考 |
-|:-|:-|
-|はんだごてセット|アマゾンの温度調整付きはんだごてセットがおすすめ。|
-|プラスドライバー|M3ネジ締める用。|
-|ピンセット|パーツを掴む用。|
-|テスター|あると電源投入前に配線のショートをチェックできるので怖さが減ります。|
+| 名前 | 備考 |参考商品|
+|:-|:-|:-|
+|はんだごてセット|アマゾンの温度調整付きはんだごてセットがおすすめ。|[amazon](https://www.amazon.co.jp/dp/B0CM1WJB5X/)|
+|プラスドライバー|M3ネジ締める用。||
+|テスター|あると電源投入前に配線のショートをチェックできるので怖さが減ります。||
 
 
 
