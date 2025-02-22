@@ -25,7 +25,7 @@
 
 | 名前 | 数 | 備考 |参考商品|
 |:-|---:|:-|:-|
-|Seeed Studio XIAO nRF52840 |2個|安価で入手性が高く、通信も安定しています。|[official](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) [Amazon](https://www.amazon.co.jp/dp/B09T9VVQG7/)|
+|Seeed Studio XIAO nRF52840 |2個|安価で入手性が高く、通信も安定しています。|[秋月電子](https://akizukidenshi.com/catalog/g/g117341/)|
 |Kailh Choc V2互換スイッチ|48個|個人的にDeepSeaMiniがおすすめ。Lofreeなども適合。ChocV1も一応刺さります。|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/Kailh-Choc-V2%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) [Kailhswitch](https://kailhswitch.net/products/kailh-deep-sea-silent-min-low-profile-keyboard-switch)|
 |MX軸ロープロファイルキーキャップ|48個|MX軸なら通常キーキャップも一部適合。|[Womier](https://www.amazon.co.jp/stores/page/90526727-85E5-4BF8-AAD2-FC8A78C07BE3/search?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto&terms=%E3%83%AD%E3%83%BC%E3%83%97%E3%83%AD)|
 |3.7Vリチウムポリマーバッテリー|2個|厚さ6.3mm以下、ソケットのピッチ2.0mm　※ソケットの極性に注意！|[Amazon](https://www.amazon.co.jp/dp/B08FD39Y5R/)|
