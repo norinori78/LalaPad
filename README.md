@@ -63,7 +63,7 @@ GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを�
 
 
 ### デフォルトキーマップの概要
-- デフォルトレイヤー（アルファベット）
+- デフォルトレイヤー（Windows向け）
 ![keyboard-layout (2)](https://github.com/user-attachments/assets/0911ee18-045a-48e1-aabe-d87bd1896730)
 - Numpadレイヤー　左：数字（記号）、右：テンキーEtc
 - システムレイヤー　（BLE設定、ブートローダー、ZMK Studioロック解除Etc…）
