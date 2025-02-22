@@ -69,7 +69,7 @@ GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを�
 赤文字：長押し  
 空白：デフォルトレイヤーから変化なし
 - デフォルトレイヤー（Windows向け）
-![image](https://github.com/user-attachments/assets/61385f1e-d301-417c-9651-70e1c3d1a078)
+![image](https://github.com/user-attachments/assets/96f9a8ff-cb9b-4171-ab62-c6aa884d6a34)
 
 - セカンダリレイヤー（左：数字、右：テンキー）
 ![image](https://github.com/user-attachments/assets/3b131a76-cb12-4c5d-a4c6-2ffb3d655060)
@@ -77,7 +77,7 @@ GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを�
 - ターシャリレイヤー（予備）
 
 - システムレイヤー（BLE接続先選択＆プロファイルクリア、ブートローダー、ZMK Studioロック解除Etc…）
-![image](https://github.com/user-attachments/assets/0bdbfb25-1d88-49a3-8039-edad67037df6)
+![image](https://github.com/user-attachments/assets/a8828c5e-8f77-4ba0-8899-0aabb7527d22)
 
 
 
