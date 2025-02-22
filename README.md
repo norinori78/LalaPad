@@ -66,15 +66,17 @@ GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを�
 
 
 ### デフォルトキーマップの概要
-<font color="#FF0000">赤文字：長押し</font>
+赤文字：長押し  
+空白：前のレイヤーから変化なし
 - デフォルトレイヤー（Windows向け）
 ![image](https://github.com/user-attachments/assets/61385f1e-d301-417c-9651-70e1c3d1a078)
 
-- セカンダリレイヤー　左：数字、右：テンキー
-![image](https://github.com/user-attachments/assets/e8762c46-9dfe-4c8b-9fb0-71cfb6e44196)
+- セカンダリレイヤー（左：数字、右：テンキー）
+![image](https://github.com/user-attachments/assets/59e302a0-8d04-4182-8e9f-e1a86945cc1b)
 
+- ターシャリレイヤー（予備）
 
-- システムレイヤー　（BLE設定、ブートローダー、ZMK Studioロック解除Etc…）
+- システムレイヤー（BLE設定、ブートローダー、ZMK Studioロック解除Etc…）
 
 
 
