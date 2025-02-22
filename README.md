@@ -72,7 +72,7 @@ GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを�
 ![image](https://github.com/user-attachments/assets/61385f1e-d301-417c-9651-70e1c3d1a078)
 
 - セカンダリレイヤー（左：数字、右：テンキー）
-![image](https://github.com/user-attachments/assets/59e302a0-8d04-4182-8e9f-e1a86945cc1b)
+![image](https://github.com/user-attachments/assets/38b89fa8-e915-419d-9f77-cf28f0df3b10)
 
 - ターシャリレイヤー（予備）
 
