@@ -70,6 +70,7 @@ GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを�
 青文字：Ctrl押しながら押下で出力  
 空白：デフォルトレイヤーから変化なし  
 Layer1~3キー：押してる間だけレイヤー変更  
+2文字刻印されているキー：SHIFT押しながら押下で右を出力（一般的なキーボードと同様）
 - デフォルトレイヤー（Windows向け）
 ![image](https://github.com/user-attachments/assets/e8ab12d1-77c2-4717-bbf9-fceb7991e168)
 
@@ -85,9 +86,12 @@ Layer1~3キー：押してる間だけレイヤー変更
 
 
 ### トラックパッドの機能
+- マウスポインターの操作
 - タッチでマウスレイヤーに自動切替
-- ノーマルモードと低速モード
+![image](https://github.com/user-attachments/assets/acd9b2de-2bcc-4bee-848d-981af18d1684)
+
 - マウススクロールモード
+- 低速モード
   
 ### キーマップの変更
 #### ZMK Studioを使用
