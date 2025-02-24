@@ -19,7 +19,7 @@ GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを�
 
 ## 製品の詳細
 
-### [販売ページ](doc/BuildGuide.md)
+### [販売ページ](https://shininet.booth.pm/)
 
 ### [ビルドガイド](doc/BuildGuide.md)
 
