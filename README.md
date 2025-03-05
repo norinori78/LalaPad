@@ -93,8 +93,8 @@ Layer1~3キー：押してる間だけレイヤー変更
 ![image](https://github.com/user-attachments/assets/acd9b2de-2bcc-4bee-848d-981af18d1684)  
 
 ### キーマップの変更
-#### ZMK Studioを使用
-- Webブラウザ上で簡単に編集可能
+#### ZMK Studio（ベータ版）を使用
+- Webブラウザ上で簡単に編集可能（USB経由)
 - ネイティブアプリ版を使えば無線接続のまま編集可能
 - ファームウェアのビルド不要
 
