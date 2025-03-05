@@ -55,31 +55,57 @@
 　
 ## PCBの組み立て
 ### PCBの分離
+![2025-03-05_14h07_38](https://github.com/user-attachments/assets/914e8cfd-df3d-4aae-be23-9445722f6fd7)
+
 ### ホットスワップソケットのはんだづけ
-### ロータリーエンコーダーのはんだづけ
+![2025-03-05_14h10_34](https://github.com/user-attachments/assets/c9f43c88-1359-4b94-9ecb-af7309c57384)
+
 ### マイコンのはんだづけ
+![2025-03-05_14h11_43](https://github.com/user-attachments/assets/94695031-f662-4c99-bf90-5ff79c9273cb)
+![2025-03-05_14h13_08](https://github.com/user-attachments/assets/5de233e1-3fa4-4c2b-bce4-cd5878d2cc05)
+![2025-03-05_14h13_36](https://github.com/user-attachments/assets/21f33a4f-3479-4a94-b29c-a616f99a3ccd)
+![2025-03-05_14h14_01](https://github.com/user-attachments/assets/6964582b-b896-4b80-a3d0-869d40fc8b76)
 
-この時点で８割の作業が終わりです。お疲れ様でした。
 
-### PCBへトッププレートの取り付け
-### キースイッチの取り付け
+### ロータリーエンコーダーのはんだづけ
+![2025-03-05_14h16_20](https://github.com/user-attachments/assets/3c965a6a-69f5-4381-8975-228ad65f82ce)
+
+
+この時点で7割の作業が終わりです。お疲れ様でした。
+
+### PCBへトッププレートとキースイッチの取り付け
+![2025-03-05_14h19_45](https://github.com/user-attachments/assets/3bae6b06-6a4b-4cf7-9f9a-f9544f9a9fd6)
+の取り付け
+
 ### FFCケーブルをPCBに取り付け
+![2025-03-05_14h17_07](https://github.com/user-attachments/assets/285b2ccf-1c34-47ba-a621-3566103d62c3)
 
 　
 ## D-Padモジュールの組み立て
 ### マイクロスイッチのはんだづけ
+![2025-03-05_14h20_44](https://github.com/user-attachments/assets/ba3ddfe0-045e-4e32-8691-c76d01898ada)
+
 ### D-Padモジュールカバーの装着
+![2025-03-05_14h21_26](https://github.com/user-attachments/assets/f91e2ae1-883b-4a3c-ba11-48e900c39661)
+![2025-03-05_14h21_54](https://github.com/user-attachments/assets/e90cf2d4-0e0e-4339-8c59-39b13e86186a)
+![2025-03-05_14h22_17](https://github.com/user-attachments/assets/357531fb-937c-40f5-8907-691a6c23b27e)
+
 
 　
 ## キーボードの組み立て
-### ボトムプレートにマグネットとメタルプレートの取り付け
 ### ケースの仮組み立て（電源スイッチカバーの取り付け）
+ボトムプレートにマグネットとメタルプレートの取り付け
+![2025-03-05_14h23_55](https://github.com/user-attachments/assets/3601dbfd-2c2a-4ed9-8a4d-d465c9b14eba)
+
 ### トラックパッドとD-Pad取り付け
+![2025-03-05_14h24_44](https://github.com/user-attachments/assets/5239e8d7-7912-4432-9762-cbaa0a2b26cd)
+![2025-03-05_14h25_02](https://github.com/user-attachments/assets/f9bc118b-f268-4945-bdb2-46b4f3b19548)
 
 　
 ## ファームウェアの書き込み＆動作確認(USB)
 
 　
 ## バッテリー取り付け
+![2025-03-05_14h25_35](https://github.com/user-attachments/assets/f810350d-b52e-44c9-b7ec-cd86a49ce65a)
 
 #完成！！
