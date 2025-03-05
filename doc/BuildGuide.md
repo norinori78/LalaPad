@@ -55,7 +55,7 @@
 　
 ## PCBの組み立て
 ### PCBの分離
-![2025-03-05_14h07_38](https://github.com/user-attachments/assets/914e8cfd-df3d-4aae-be23-9445722f6fd7)
+![2025-03-05_14h26_51](https://github.com/user-attachments/assets/1c5e5bdd-da6b-4275-abbe-b84fb229dd7a)
 
 ### ホットスワップソケットのはんだづけ
 ![2025-03-05_14h10_34](https://github.com/user-attachments/assets/c9f43c88-1359-4b94-9ecb-af7309c57384)
@@ -75,7 +75,7 @@
 
 ### PCBへトッププレートとキースイッチの取り付け
 ![2025-03-05_14h19_45](https://github.com/user-attachments/assets/3bae6b06-6a4b-4cf7-9f9a-f9544f9a9fd6)
-の取り付け
+
 
 ### FFCケーブルをPCBに取り付け
 ![2025-03-05_14h17_07](https://github.com/user-attachments/assets/285b2ccf-1c34-47ba-a621-3566103d62c3)
@@ -93,8 +93,9 @@
 
 　
 ## キーボードの組み立て
-### ケースの仮組み立て（電源スイッチカバーの取り付け）
+### ケースの仮組み立て
 ボトムプレートにマグネットとメタルプレートの取り付け
+電源スイッチカバーの取り付け
 ![2025-03-05_14h23_55](https://github.com/user-attachments/assets/3601dbfd-2c2a-4ed9-8a4d-d465c9b14eba)
 
 ### トラックパッドとD-Pad取り付け
