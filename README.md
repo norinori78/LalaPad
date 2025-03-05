@@ -1,5 +1,5 @@
-# GliDe48
-GliDe48は、Corneに丸型トラックパッドを搭載するスタイルを源流に、日本で流行ってるトラックボール付きキーボードにインスパイアを受けたトラックパッド搭載型ワイヤレスキーボードです。
+# LalaPad
+LalaPadは、Corneに丸型トラックパッドを搭載するスタイルを源流に、日本で流行ってるトラックボール付きキーボードにインスパイアを受けたトラックパッド搭載型ワイヤレスキーボードです。
 ![image](https://github.com/user-attachments/assets/6d2ca347-bd2d-4d19-a1a7-67cd6367348d)
 ![image](https://github.com/user-attachments/assets/980e4df9-8f20-400f-a905-fab9b970171d)
 ※画像は開発中の物であり、製品版とはわずかに外観が異なる可能性があります。
