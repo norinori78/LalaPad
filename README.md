@@ -23,7 +23,7 @@ LalaPadは、Corneに丸型トラックパッドを搭載するスタイルを�
 
 ### [ビルドガイド](doc/BuildGuide.md)
 
-### [3Dモデルデータのダウンロード](doc/3dModels.md)
+### [3Dモデルデータのダウンロード](https://makerworld.com/en/models/1173447-keyboard-cases-for-lalapad#profileId-1182086)
 
 
 #### 3Dプリント発注費用の目安（20250220時点
