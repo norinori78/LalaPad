@@ -193,7 +193,7 @@
 > [!WARNING]
 > バッテリーには極性があります。ソケットに差し込む方向に対して右側がプラス（赤色）になるバッテリーを使用してください。
 
- ![2025-03-06_07h06_25](https://github.com/user-attachments/assets/f61c27cb-1c3d-4cbc-b0e0-9d586a619fd8)
+![2025-03-06_13h06_24](https://github.com/user-attachments/assets/3a825545-507e-4575-98ae-b9a0f3ec2c2f)
 
 <br/><br/><br/>
 
