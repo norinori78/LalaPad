@@ -18,8 +18,7 @@ LalaPadは、Corneに丸型トラックパッドを搭載するスタイルを�
 <br/><br/>
 
 ## 製品の詳細
-
-### [販売ページ](https://shininet.booth.pm/)
+### [販売ページ](https://shininet.booth.pm/items/6669026)
 
 ### [ビルドガイド](doc/BuildGuide.md)
 
