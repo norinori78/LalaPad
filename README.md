@@ -1,6 +1,5 @@
-![image](https://github.com/user-attachments/assets/89770586-1989-4ee8-97eb-3d68f0ad1c56)# LalaPad
 ![Lalapad](https://github.com/user-attachments/assets/8c9aff03-500e-492d-828c-6ee9c2debeac)
-<br/><br/>
+<br/><br/><br/>
 LalaPadは、Corneに丸型トラックパッドを搭載するスタイルを源流に、日本で流行ってるトラックボール付きキーボードにインスパイアを受けたトラックパッド搭載型ワイヤレスキーボードです。
 ![image](https://github.com/user-attachments/assets/6d2ca347-bd2d-4d19-a1a7-67cd6367348d)
 ![image](https://github.com/user-attachments/assets/980e4df9-8f20-400f-a905-fab9b970171d)
