@@ -191,9 +191,18 @@
 <br/><br/><br/>
 
 ## ファームウェアの書き込み＆動作確認(USB)
-- GitHUBに公開しているベースファームウェア（.uf2）をダウンロードします。
+- GitHUBに公開している[ベースファームウェア（.uf2）](https://github.com/ShiniNet/LalaPad/tree/main/firmware)をダウンロードします。
+![2025-03-08_11h53_10](https://github.com/user-attachments/assets/58ff8799-6c74-4f43-b294-662e3becafcd)
+<br/>
+
 - キーボードとPCをUSBに接続した状態でマイコンのリセットボタンを2回連打します。
+![2025-03-08_11h57_30](https://github.com/user-attachments/assets/3b875866-41f1-4a10-88e1-2eb18f637fa2)
+<br/>
+
 - 正しく操作できていればPC側にマイコンのフォルダが表示されるので、先ほどダウンロードした.uf2ファイル（右側には"lalapad_R.uf2"、左側には"lalapad_L.uf2"のファイル）をコピーペーストします。
+![2025-03-08_12h02_42](https://github.com/user-attachments/assets/a911b894-f945-4bcb-a4e8-9eed45576dbd)
+<br/>
+
 - 左右ともファームウェアの書き込みを完了させます。
 - キーボード入力テスト用のWEBサイト等で動作確認を行います。
 　
