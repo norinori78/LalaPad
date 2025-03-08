@@ -205,7 +205,7 @@
 <br/>
 
 - 任意の[キーボード入力テスト用のWEBサイト](https://www.onlinemictest.com/ja/keyboard-test/)で動作確認を行います。
-- 全てのキーが正しく判定されることを確認してください。
+- 全ての物理キーが正しく判定されることを確認してください。
 ![2025-03-08_12h21_48](https://github.com/user-attachments/assets/8bf01cfd-ec55-40e2-b00a-e12b5ed9a7f6)
 
 　
