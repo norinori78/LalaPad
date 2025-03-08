@@ -232,3 +232,6 @@
 
 
 # 完成！！
+
+> [!TIP]
+> [使い方](https://github.com/ShiniNet/LalaPad#%E4%BD%BF%E3%81%84%E6%96%B9)を参考に、楽しい自作キーボードライフを満喫してください！
