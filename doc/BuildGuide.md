@@ -199,12 +199,15 @@
 ![2025-03-08_11h57_30](https://github.com/user-attachments/assets/3b875866-41f1-4a10-88e1-2eb18f637fa2)
 <br/>
 
-- 正しく操作できていればPC側にマイコンのフォルダが表示されるので、先ほどダウンロードした.uf2ファイル（右側には"lalapad_R.uf2"、左側には"lalapad_L.uf2"のファイル）をコピーペーストします。
+- 正しく操作できていればPC側にマイコンのフォルダが表示されるので、先ほどダウンロードした.uf2ファイル（右側には"lalapad_R.uf2"、左側には"lalapad_L.uf2"のファイル）を１つずつコピーペーストします。
+- 左右ともファームウェアの書き込みを完了させます。
 ![2025-03-08_12h02_42](https://github.com/user-attachments/assets/a911b894-f945-4bcb-a4e8-9eed45576dbd)
 <br/>
 
-- 左右ともファームウェアの書き込みを完了させます。
-- キーボード入力テスト用のWEBサイト等で動作確認を行います。
+- 任意の[キーボード入力テスト用のWEBサイト](https://www.onlinemictest.com/ja/keyboard-test/)で動作確認を行います。
+- 全てのキーが正しく判定されることを確認してください。
+![2025-03-08_12h21_48](https://github.com/user-attachments/assets/8bf01cfd-ec55-40e2-b00a-e12b5ed9a7f6)
+
 　
 ## バッテリー取り付け
 - PCBへ用意したリポバッテリーのコネクタを接続してください。
