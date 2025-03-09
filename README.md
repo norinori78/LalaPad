@@ -99,23 +99,27 @@ Layer1~3キー：押してる間だけレイヤー変更
 ![image](https://github.com/user-attachments/assets/acd9b2de-2bcc-4bee-848d-981af18d1684)  
 
 ### キーマップの変更
-#### ZMK Studio（ベータ版）を使用
+#### [ZMK Studio（ベータ版）](https://zmk.studio/)を使用
 - Webブラウザ上で簡単に編集可能（USB経由)
 - ネイティブアプリ版を使えば無線接続のまま編集可能
 - ファームウェアのビルド不要
 
-　[ZMK Studioの詳細はこちら](#)
-
-#### KeymapEditorを使用
+#### [KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)を使用
 - Webブラウザ上で簡単に編集可能
 - ZMK Studioより詳細な設定が可能
 - ファームウェアをビルドする為にGitHubアカウントが必要です
 
-　[準備中](#)
+　[使い方…準備中…](#)
 
 
-### ファームウェアのカスタマイズ
-　[準備中](#)
+### ファームウェアを直接カスタマイズ
+- ZMKの全ての機能を利用できます（独自のマクロ追加など）
+- キーボードのプロパティを変更できます（カーソル速度やスリープ時間の閾値調整）
+- 若干のC言語+DeviceTreeの知識が必要です
+
+参考：[ZMK Firmwear Docs](https://zmk.dev/docs/config)
+
+
 <br/><br/>
 
 ## よくある質問
