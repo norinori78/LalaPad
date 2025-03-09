@@ -1,7 +1,7 @@
 ![LalapadLogo2](https://github.com/user-attachments/assets/e67f79ff-9425-4eba-b59c-047dbce6b11a)
 <br/>
 
-LalaPadは液タブ等を用いたクリエイティブ作業を快適にするために、デスク周りの器材（キーボード、マウス、左手デバイス、テンキー等）を統合する目的で開発されました。
+LalaPadは液タブ等を用いたクリエイティブな作業を快適にするために、デスク周りの器材（キーボード、マウス、左手デバイス、テンキー等）を統合する目的で開発されました。
 
 ![image](https://github.com/user-attachments/assets/6d2ca347-bd2d-4d19-a1a7-67cd6367348d)
 ![image](https://github.com/user-attachments/assets/980e4df9-8f20-400f-a905-fab9b970171d)
