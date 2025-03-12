@@ -105,7 +105,7 @@ Layer1~3キー：押してる間だけレイヤー変更
 - ネイティブアプリ版を使えば無線接続のまま編集可能
 - ファームウェアのビルド不要
 
-参考：[ZMK Studio - ZMK Firmwear Docs](https://zmk.dev/docs/features/studio)
+　参考：[ZMK Studio - ZMK Firmwear Docs](https://zmk.dev/docs/features/studio)
 
 #### [KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)を使用
 - Webブラウザ上で簡単に編集可能
@@ -120,7 +120,7 @@ Layer1~3キー：押してる間だけレイヤー変更
 - キーボードのプロパティを変更できます（トラックパッドのドライバ変更やスリープ時間の閾値調整等）
 - 若干のC言語+DeviceTreeの知識が必要です
 
-参考：[ZMK Firmwear Docs](https://zmk.dev/docs/config)
+　参考：[ZMK Firmwear Docs](https://zmk.dev/docs/config)
 
 
 <br/><br/>
