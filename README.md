@@ -105,6 +105,8 @@ Layer1~3キー：押してる間だけレイヤー変更
 - ネイティブアプリ版を使えば無線接続のまま編集可能
 - ファームウェアのビルド不要
 
+参考：[ZMK Studio - ZMK Firmwear Docs](https://zmk.dev/docs/features/studio)
+
 #### [KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)を使用
 - Webブラウザ上で簡単に編集可能
 - ZMK Studioより詳細な設定が可能
