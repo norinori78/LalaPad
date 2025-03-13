@@ -9,6 +9,6 @@
 |ロータリーエンコーダー|EC12E1240301|
 |トラックパッド|TM035035-2024-002|　　
 
-主な購入先例：秋月電子、Amazon、AliExpress、Aribaba、各社電子部品ディストリビューター（Digikey、Mouser、LCSC、Etc... ）
+主な購入先例：秋月電子、Amazon、AliExpress、Aribaba、eBay、各社電子部品ディストリビューター（Digikey、Mouser、LCSC、Etc... ）
 ※在庫情報が日々変動する為、具体的な調達先についてはこちらではご案内しておりません。
 
