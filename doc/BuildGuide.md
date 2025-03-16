@@ -196,9 +196,9 @@
 <br/><br/><br/>
 
 ## ファームウェアの書き込み＆動作確認(USB)
-- GitHUBに公開している[ベースファームウェア（.uf2）](https://github.com/ShiniNet/zmk-config-LalaPad/actions/runs/13879904810/artifacts/2759204350)をダウンロードします。
+- GitHUBに公開している[ベースファームウェア（.uf2）](https://github.com/ShiniNet/LalaPad/tree/main/firmware)をダウンロードします。
   
-![2025-03-16_12h39_38](https://github.com/user-attachments/assets/4c839ec1-2601-4e0b-84a9-6d4b4978670c)  
+![2025-03-16_12h55_31](https://github.com/user-attachments/assets/622aa44f-13e8-45d6-bbaf-bad7085e05db)
 
 <br/>
 
@@ -206,10 +206,10 @@
 ![2025-03-08_11h57_30](https://github.com/user-attachments/assets/3b875866-41f1-4a10-88e1-2eb18f637fa2)
 <br/>
 
-- 正しく操作できていればPC側にマイコンのフォルダ(XIAO-SENSE)が表示されるので、先ほどダウンロードした.uf2ファイル（右側には"lalapad_right_xxxxxxx.uf2"、左側には"lalapad_left_xxxxxxx.uf2"のファイル）を１つずつコピーペーストします。
+- 正しく操作できていればPC側にマイコンのフォルダ(XIAO-SENSE)が表示されるので、先ほどダウンロードした.uf2ファイル（右側には"LalaPad_R.uf2"、左側には"LalaPad_L.uf2"のファイル）を１つずつコピーペーストします。
 - 左右ともファームウェアの書き込みを完了させます。
 
-![2025-03-16_12h42_41](https://github.com/user-attachments/assets/bd29195c-624f-49c8-9d17-7ab7d99f8e47)
+![2025-03-16_12h57_06](https://github.com/user-attachments/assets/8c909d74-64e4-4c26-9a1d-1cf012d9f9e9)
 
 
 <br/>
