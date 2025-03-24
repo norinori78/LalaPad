@@ -113,7 +113,6 @@ Layer1~3キー：押してる間だけレイヤー変更
 - ファームウェアをビルドする為にGitHubアカウントが必要です
 
 　[KeymapEditorの使い方](https://github.com/ShiniNet/LalaPad/blob/main/doc/KeymapEdit.md)<br/>
-　[ファームウェアのリポジトリはこちら](https://github.com/ShiniNet/zmk-config-LalaPad)<br/>
  　
 
 ### ファームウェアを直接カスタマイズ
