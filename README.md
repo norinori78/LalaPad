@@ -112,8 +112,9 @@ Layer1~3キー：押してる間だけレイヤー変更
 - ZMK Studioより詳細な設定が可能
 - ファームウェアをビルドする為にGitHubアカウントが必要です
 
-　[使い方…準備中…](#)
-　[ファームウェアのリポジトリはこちら](https://github.com/ShiniNet/zmk-config-LalaPad)
+　[KeymapEditorの使い方](https://github.com/ShiniNet/LalaPad/blob/main/doc/KeymapEdit.md)<br/>
+　[ファームウェアのリポジトリはこちら](https://github.com/ShiniNet/zmk-config-LalaPad)<br/>
+ 　
 
 ### ファームウェアを直接カスタマイズ
 - ZMKの全ての機能を利用できます（独自のマクロ追加など）
