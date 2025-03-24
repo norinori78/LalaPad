@@ -40,8 +40,8 @@
 |プロパティ名|説明|
 |:-|:-|
 |CONFIG_ZMK_SLEEP|y:スリープ機能ON、n:スリープ機能OFF|
-|CONFIG_ZMK_IDLE_TIMEOUT|キーボードが待機モードに入るまでの時間（MS単位）|
-|CONFIG_ZMK_IDLE_SLEEP_TIMEOUT|キーボードがスリープモードに入るまでの時間（MS単位）|
+|CONFIG_ZMK_IDLE_TIMEOUT|キーボードが待機モードに入るまでの時間（ミリ秒単位）|
+|CONFIG_ZMK_IDLE_SLEEP_TIMEOUT|キーボードがスリープモードに入るまでの時間（ミリ秒単位）|
 
 その他のコンフィグ参考：[ZMK Doc - Configuration Overview](https://zmk.dev/docs/config)
 <br/><br/><br/>
