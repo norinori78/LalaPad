@@ -1,5 +1,8 @@
 # KeymapEditorの使い方
 
+![2025-03-24_18h34_27](https://github.com/user-attachments/assets/f441e1f9-1883-4aeb-b50b-9203007a3ff9)
+
+
 ## 大まかな流れ
 1. GitHubアカウント作る
 2. LalaPadのファームをフォーク（複製）する
