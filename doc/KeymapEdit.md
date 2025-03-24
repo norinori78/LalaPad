@@ -58,7 +58,7 @@
 ![2025-03-24_17h25_36](https://github.com/user-attachments/assets/64fc769a-2f12-4fe5-9b8f-eb5cbf03b517)
 <br/><br/><br/>
   
-- キーボードのレイアウトが表示されていれば設定完了です！
+- KeymapEditorの画面に自動的に戻り、キーボードのレイアウトが表示されていれば設定完了です！
 
 ![image](https://github.com/user-attachments/assets/6bda1ac1-2d46-4539-bbc1-281369356032)
 <br/><br/><br/>
