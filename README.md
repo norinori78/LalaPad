@@ -120,7 +120,9 @@ Layer1~3キー：押してる間だけレイヤー変更
 - キーボードのプロパティを変更できます（トラックパッドのドライバ変更やスリープ時間の閾値調整等）
 - 若干のC言語+DeviceTreeの知識が必要です
 
-　参考：[ZMK Firmwear Docs](https://zmk.dev/docs/config)
+　[ファームウェアを直接変更する方法](https://github.com/ShiniNet/LalaPad/blob/main/doc/EditFirmwareDirectly.md)<br/>
+ 
+　参考：[ZMK Firmwear Docs](https://zmk.dev/docs/config)<br/>
 
 
 <br/><br/>
