@@ -108,3 +108,39 @@
 <br/><br/><br/>
 
 以上！
+<br/><br/><br/>
+
+
+# KeymapEditorの使い方TIPS編
+
+## ロータリーエンコーダーへ操作を割り当てる
+- キーレイアウト下部にある丸いボタンがロータリーエンコーダー（左右）に対応しています。
+- エンコーダーをクリックして設定画面を開きます。
+  
+![2025-03-24_18h42_21](https://github.com/user-attachments/assets/ffe97fb6-fa3b-442f-8bb8-b2aa764c12e8)
+![2025-03-24_18h42_27](https://github.com/user-attachments/assets/10c299f3-6377-435a-8f24-e21cd2d35e8f)
+<br/><br/><br/>
+
+
+- Behaviorを設定します。（ここではinc_dec_kpを選択）
+- 「inc_dec_kp」とは、エンコーダー操作へ任意のキーを割り当てる為のBehaviorです。
+- マウススクロールをさせたい場合は「&scroll_xxx_xxx」を選択。（方向ごとに4バリエーション作ってあります
+- 自前で好きな動作を組み込んだBehaviorを自作してエンコーダーに割り当てることもできます。
+  
+![2025-03-24_18h42_33](https://github.com/user-attachments/assets/818ced15-d792-4272-9f70-77b19a52fa11)
+<br/><br/><br/>
+
+
+- 左右の動作に割り当てるキーを指定します。（ここではPageUpとPageDownを選択）
+
+![2025-03-24_18h42_59](https://github.com/user-attachments/assets/045812fe-09cb-4617-bff5-d0f5d30463fc)
+<br/><br/><br/>
+
+- KeymapEditor上での変更を確認できたらSaveして、今までと同様に自動ビルドされたファームウェアをキーボードに書き込みます。
+  
+![2025-03-24_18h43_04](https://github.com/user-attachments/assets/4b2c576e-5cb6-4e23-a297-fabd9b1c892c)
+<br/><br/><br/>
+
+
+
+
