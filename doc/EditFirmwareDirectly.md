@@ -26,14 +26,24 @@
 ## ソースコードの内容を編集する
 
 - コード内容の右上の鉛筆のマークをクリックして編集モードへ入る。
-- 
-- 
+  
 ![2025-03-24_21h24_26](https://github.com/user-attachments/assets/742587f4-57f3-432f-bde3-306683798e92)
 <br/><br/><br/>
 
 - プロパティの内容を変更する（今回は「CONFIG_ZMK_IDLE_TIMEOUT」を変更し、アイドルモードへの移行を無効化する）
   
 ![2025-03-24_21h33_15](https://github.com/user-attachments/assets/92141fdc-06f5-493a-9170-7108f9542148)
+<br/><br/><br/>
+
+- ユーザーが弄る意味のありそうなプロパティ一覧
+  
+|プロパティ名|説明|
+|:-|:-|
+|CONFIG_ZMK_SLEEP|y:スリープ機能ON、n:スリープ機能OFF|
+|CONFIG_ZMK_IDLE_TIMEOUT|キーボードが待機モードに入るまでの時間（MS単位）|
+|CONFIG_ZMK_IDLE_SLEEP_TIMEOUT|キーボードがスリープモードに入るまでの時間（MS単位）|
+
+その他のコンフィグ参考：[ZMK Doc - Configuration Overview](https://zmk.dev/docs/config)
 <br/><br/><br/>
 
 - 編集が完了したら右上のCommit Changesボタンを押下し、Commitコメントを入力したらコミットを確定する
