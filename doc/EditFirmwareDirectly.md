@@ -10,6 +10,7 @@
 
 ## 準備：LalaPadのファームウェアのフォークを作成
 
+- 自分専用の設定を管理する為に、元のファームウェアをフォーク(複製）する必要があります。
 - [KeymapEditorの使い方](https://github.com/ShiniNet/LalaPad/blob/main/doc/KeymapEdit.md)と同様。
 - すでにフォークしたファームウェアを用意してある人はSKIP。
 <br/><br/><br/>
