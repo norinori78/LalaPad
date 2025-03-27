@@ -33,7 +33,14 @@
 ![2025-03-24_17h10_07](https://github.com/user-attachments/assets/979d11b1-d21e-41f8-a837-41f475fc9acd)
   <br/><br/><br/>
 
-- 自分のアカウント配下にLalaPadのファームウェアのフォークが作成されました。
+- 自分のアカウント配下にLalaPadのファームウェアのフォークが作成されましたので見に行きます。
+- 画面右上の自分のアイコンをクリック⇒「Your repositories」をクリック
+- 「zmk-config-LalaPad」のリンクをクリック
+  
+![2025-03-27_18h06_05](https://github.com/user-attachments/assets/05b1ee27-3395-4ef0-9dac-0d4bfc1d537c)
+![2025-03-27_18h02_01](https://github.com/user-attachments/assets/92f25ad8-b127-4d55-84ea-9f958cffdec2)
+<br/><br/><br/>
+
 - Actionのタブへ遷移し、GitHubAcitonを有効にしておきます。
 - 「I understand my workflows, go ahead and enable them」ボタンを押下します。
   
