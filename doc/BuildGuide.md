@@ -36,7 +36,7 @@
 |★|Seeed Studio XIAO nRF52840 |2個|マイコン本体。安価で入手性が高く、通信も安定しています。|[秋月電子](https://akizukidenshi.com/catalog/g/g117341/)|
 |★|Kailh Choc V2互換スイッチ|48個|個人的にDeepSeaMiniがおすすめ。Lofreeなども適合。ChocV1も一応刺さります。|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/Kailh-Choc-V2%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) [Kailhswitch](https://kailhswitch.net/products/kailh-deep-sea-silent-min-low-profile-keyboard-switch)|
 |★|MX軸ロープロファイルキーキャップ|48個|MX軸なら通常キーキャップも一部適合。|[Womier](https://womierkeyboard.com/products/skyline-r2) [Amazon](https://www.amazon.co.jp/stores/page/90526727-85E5-4BF8-AAD2-FC8A78C07BE3/search?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto&terms=%E3%83%AD%E3%83%BC%E3%83%97%E3%83%AD)|
-|★|3.7Vリチウムポリマーバッテリー|2個|厚さ6.3mm幅47mm長さ110mm以下、JST PHコネクタ（ソケットのピッチ2.0mm）※[ソケットの極性に注意！](#%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91)|[Amazon](https://www.amazon.co.jp/dp/B09DRJS75J/) [コネクタのみ](https://www.amazon.co.jp/dp/B01MXGWMS5/) [Amazon2](https://www.amazon.co.jp/dp/B08FD39Y5R/) |
+|★|3.7Vリチウムポリマーバッテリー|2個|厚さ6.3mm幅47mm長さ110mm以下、JST PHコネクタ（ソケットのピッチ2.0mm）※[ソケットの極性に注意！](#%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91)|[Amazon](https://www.amazon.co.jp/dp/B09DRJS75J/) [PHコネクタ単品](https://www.amazon.co.jp/dp/B01MXGWMS5/) [Amazon2](https://www.amazon.co.jp/dp/B08FD39Y5R/) |
 |★|USB-Cケーブル|2本|充電、ファームウェア書き込み用。何百回と抜き差しする事になるのでマグネット式がおすすめ。||
 ||ケースの滑り止め|1式|グリップラスが評判良いです。テントするなら不要。|[Amazon](https://www.amazon.co.jp/dp/B08C9Z2K4C/])
 ||テンティング用品|2セット|マグネット式スタンドor三脚orクランプアーム。テントしないなら不要。|[Cramp](https://www.amazon.co.jp/dp/B08LCZ2X7M/) [Magnet](https://www.amazon.co.jp/dp/B0CXPR9BMF/) [Stand1](https://www.amazon.co.jp/dp/B0DKFMLWFX/) |★[Stand2](https://www.amazon.co.jp/dp/B0B6DSD1RK/)|
