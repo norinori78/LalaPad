@@ -225,3 +225,15 @@ A1:　約１時間キーボードが操作されないとキーボードがス�
 - 地理的な事情により開発者による物理的なサポートが制限されることを予めご了承ください（往復の国際配送料がかかる為、修理の受付が現実的ではない等）。その代わり修理部品の手配方法の案内など、できる限りのサポートをさせて頂きます！
 <br/><br/>
 
+## CREDITS
+
+### INSPIRATION  
+This keyboard layout is inspired by the **Corne** series, known for its split ergonomic design.  
+The idea of placing a pointing device under the thumbs comes from the **Keyball** series.  
+I also took cues from fully-featured ZMK keyboards like the **Totem** and **roBa** in terms of structure and configuration.
+
+### FIRMWARE  
+Huge thanks to the people behind the ZMK project:  
+- [Pete Johanson](https://github.com/petejohanson)  
+- [Cem Aksoylar](https://github.com/caksoylar)  
+- And all the [ZMK Contributors](https://github.com/zmkfirmware/zmk/graphs/contributors)
