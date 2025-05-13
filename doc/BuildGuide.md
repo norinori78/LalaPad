@@ -95,6 +95,12 @@
 ![Timeline 1_01_00_00_00](https://github.com/user-attachments/assets/915f85cf-b8ae-48f5-b45c-e734705da629)
 <br/><br/><br/>
 
+- 理想のマイコンはんだ付け例です（@shakupanさんより）
+- https://x.com/shakupan_/status/1888458954734461194
+- ![image](https://github.com/user-attachments/assets/8507a66c-3653-4c35-b656-78b4862213de)
+<br/><br/><br/>
+
+
 
   
 - PCB裏面にある穴からマイコンの背面パッドへはんだづけします（穴２つ、マイコンの背面パッド４つ）。
@@ -263,6 +269,9 @@
 - DiscordのHelpチャンネルでも過去のトラブルの事例を確認することができますので、是非ご参加ください！ <BR/>
   ※招待コードはパッケージに同梱されています
 - キーボードの使用方法や接続に関するトラブルシューティングは[こちら](https://github.com/ShiniNet/LalaPad/tree/main?tab=readme-ov-file#%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0)
+
+- マイコンへのはんだづけトラブルが増えております！以下を参考にしっかりマイコンと基板の端子が接続されるようはんだを盛りましょう。
+- ![image](https://github.com/user-attachments/assets/4deb97d7-06e8-46af-8530-14b157ab06e9)
 
 <br/><br/>
 
