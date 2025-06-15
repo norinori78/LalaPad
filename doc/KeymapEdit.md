@@ -1,6 +1,10 @@
 # KeymapEditorの使い方
 
+> [!Warning]
+> LalaPad（無印）とLalaPad miniの手順はほぼ共通なので、適宜読み替えて実施してください。
+  
 ![2025-03-24_18h34_27](https://github.com/user-attachments/assets/f441e1f9-1883-4aeb-b50b-9203007a3ff9)
+
 
 
 ## 大まかな流れ
@@ -23,6 +27,7 @@
 ## LalaPadのファームウェアをフォークする（複製を作る的な奴
 
 - [LalaPadのファームウェアリポジトリ](https://github.com/ShiniNet/zmk-config-LalaPad)にアクセス。
+   - ※LalaPad miniの場合は[こちら](https://github.com/ShiniNet/zmk-config-LalaPadmini)にアクセスする。
 - リポジトリページの右上にあるForkボタンから「Create a new fork」する。
   
 ![2025-03-24_17h02_30](https://github.com/user-attachments/assets/83ba61de-95b6-4205-b846-3ea2d9425638)
@@ -36,6 +41,7 @@
 - 自分のアカウント配下にLalaPadのファームウェアのフォークが作成されましたので見に行きます。
 - 画面右上の自分のアイコンをクリック⇒「Your repositories」をクリック
 - 「zmk-config-LalaPad」のリンクをクリック
+   - ※LalaPad miniの場合は、「zmk-config-LalaPadmini」
   
 ![2025-03-27_18h06_05](https://github.com/user-attachments/assets/05b1ee27-3395-4ef0-9dac-0d4bfc1d537c)
 ![2025-03-27_18h02_01](https://github.com/user-attachments/assets/92f25ad8-b127-4d55-84ea-9f958cffdec2)
