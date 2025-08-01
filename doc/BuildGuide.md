@@ -23,8 +23,8 @@
 |電源スイッチカバー|2個|
 |マイコンカバー＆リセットピン|2個|
 |マグネット|8個|
-|メタルプレート|2個|
-|滑り止めシール(2025/04/11～出荷分)|8枚|
+|~~メタルプレート~~※スタンド側に同梱される為除外|~~2個~~|
+|滑り止めシール|8枚|
 |M3ネジ|8本|
 
 ![2025-03-07_06h03_27](https://github.com/user-attachments/assets/d0671da1-67af-4749-8326-778872f7eb3c)
@@ -38,8 +38,7 @@
 |★|MX軸ロープロファイルキーキャップ|48個|MX軸なら通常キーキャップも一部適合。|[Womier](https://womierkeyboard.com/products/skyline-r2) [Amazon](https://www.amazon.co.jp/stores/page/90526727-85E5-4BF8-AAD2-FC8A78C07BE3/search?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto&terms=%E3%83%AD%E3%83%BC%E3%83%97%E3%83%AD)|
 |★|3.7Vリチウムポリマーバッテリー|2個|厚さ6.3mm幅47mm長さ110mm以下、JST PHコネクタ（ソケットのピッチ2.0mm）※[ソケットの極性に注意！](#%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91)|[Amazon](https://www.amazon.co.jp/dp/B09DRJS75J/) [PHコネクタ単品](https://www.amazon.co.jp/dp/B01MXGWMS5/) |
 |★|USB-Cケーブル|2本|充電、ファームウェア書き込み用。何百回と抜き差しする事になるのでマグネット式がおすすめ。||
-||ケースの滑り止め|1式|グリップラスが評判良いです。テントするなら不要。4月出荷分から同梱済み|[Amazon](https://www.amazon.co.jp/dp/B08C9Z2K4C/])
-||テンティング用品|2セット|マグネット式スタンドor三脚orクランプアーム。テントしないなら不要。|[Cramp](https://www.amazon.co.jp/dp/B08LCZ2X7M/) [Magnet](https://www.amazon.co.jp/dp/B0CXPR9BMF/) [Stand1](https://www.amazon.co.jp/dp/B0DKFMLWFX/) |★[Stand2](https://www.amazon.co.jp/dp/B0B6DSD1RK/)|
+||テンティング用品|1~2個|平置きで親指ポインター操作は疲れるので、クランプ＆テンティングすることをお勧めします。クランプしないで卓上テントするならリストレストがあると更に快適かも。|[Magsfeスタンド](https://camolomall.com/products/camolo-mg03-pro-ultra-thin-magnetic-tri-fold-phone-holder) [クランプ](https://www.amazon.co.jp/dp/B08LCZ2X7M/) |
 
 ### 道具類
 
