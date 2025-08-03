@@ -83,60 +83,60 @@
 ![2025-03-05_14h10_34](https://github.com/user-attachments/assets/c9f43c88-1359-4b94-9ecb-af7309c57384)　
 <br/><br/><br/>
 
-### マイコンのはんだづけ
-- PCBの表面にマイコンを仮付けします。マイコン付属のピンヘッダを装着し、PCBへ差し込んでマスキングテープ等で固定します。
-- 以下左右とも同様に作業してください。
-  
-> [!WARNING]
-> - ピンヘッダはあとで取り外します。流れではんだづけをしないように気を付けてください。
-
-![2025-03-05_14h11_43](https://github.com/user-attachments/assets/94695031-f662-4c99-bf90-5ff79c9273cb)
-<br/><br/><br/>
-
-- マイコンのはんだ付けに苦戦する方が多いので動画を作りました。簡単です。
-- https://x.com/NetShini/status/1907390264152613021
-![Timeline 1_01_00_00_00](https://github.com/user-attachments/assets/915f85cf-b8ae-48f5-b45c-e734705da629)
-<br/><br/><br/>
-
-- 理想のマイコンはんだ付け例です（@shakupanさんより）
-- https://x.com/shakupan_/status/1888458954734461194
-- ![image](https://github.com/user-attachments/assets/8507a66c-3653-4c35-b656-78b4862213de)
-<br/><br/><br/>
-
-
-
-  
-- PCB裏面にある穴からマイコンの背面パッドへはんだづけします（穴２つ、マイコンの背面パッド４つ）。
-> [!TIP]
-> - パッドとスルーホールにフラックスを塗布しておくことではんだの吸着が良くなります。
-> - 先にはんだごてを穴に差し込んでマイコン背面パッド＆PCBのスルーホール（赤枠と青枠の金属部分）を2~3秒ほど余熱したらはんだをたっぷり流し込み、こて先を少し動かしてスルーホール＆背面パッドまではんだをなじませると良い感じになります。
-> - この時、はんだがブリッジしても気にせず次に進みます。
-
-  
-![2025-03-06_06h41_05](https://github.com/user-attachments/assets/b79dbf74-fee1-403b-8209-d0a3142668b9)
-
-<br/><br/><br/>
-
-- ブリッジした余剰はんだを除去します。
-- 穴へフラックスをたっぷり塗布し、はんだ吸い取り線をPCBの穴へ差し込み、はんだごてで十分に加熱すればはんだを除去できます。
-
-
-![2025-03-06_06h43_14](https://github.com/user-attachments/assets/483b8095-c564-41a2-9119-43a3d331af84)
-<br/><br/><br/>
-
-- 仮固定用のテープとピンヘッダを取り外し、マイコンのピンホールをPCBへはんだづけします。（14か所）
-> [!WARNING]
-> - ピンヘッダは少しずつまっすぐ引き抜いてください。斜めに力が入ると前工程ではんだづけした箇所がはがれてしまいます。
-
-![2025-03-05_14h14_01](https://github.com/user-attachments/assets/6964582b-b896-4b80-a3d0-869d40fc8b76)
-<br/><br/><br/>
-
 ### ロータリーエンコーダーのはんだづけ
 - PCBの表面からエンコーダーを差し込み、裏面から5か所はんだづけします。  
   
 ![2025-03-05_14h16_20](https://github.com/user-attachments/assets/3c965a6a-69f5-4381-8975-228ad65f82ce)
 <br/><br/><br/>
+
   
+### マイコンのはんだづけ
+- PCBの表面にマイコンを仮付けします。マイコン付属のピンヘッダを"""片側だけ"""装着し、PCBへ差し込んで固定します。
+<img width="1198" height="778" alt="image" src="https://github.com/user-attachments/assets/9026d608-7de6-4b7f-a4ae-a14246713fdd" />
+<br/><br/><br/>
+  
+- ピンヘッダが付いていない側のピンをはんだづけします。
+
+> [!WARNING]
+> - はんだはたっぷり目で盛って、""側面や背面まで""しっかりマイコンがPCBへ接合されたことを確認してください。
+
+<img width="768" height="628" alt="image" src="https://github.com/user-attachments/assets/9be551a8-ce81-4b1a-a24a-78722c54f68a" />
+<br/><br/><br/>
+
+- ピンヘッダを慎重に取り外し、残りのピンもはんだづけしてください。
+
+> [!WARNING]
+> - ピンヘッダはなるべく垂直にゆっくり引き抜き、マイコンに応力がかからないように注意してください。はんだ済みのピンがPCBのランドごと剥がれてしまいます。
+
+<img width="1539" height="1024" alt="image" src="https://github.com/user-attachments/assets/47bc5d01-37dc-40e2-b5b1-8be46eba2b6c" />
+<br/><br/><br/>
+
+- マイコン背面端子をはんだづけします。
+- PCBを裏返し、背面ホールからPCBの金属端子部分とマイコンの背面端子をコテ先で加熱しつつ、大量のはんだを流し込みわざとブリッジさせます。
+- 背面ホールにフラックスを塗布してから、はんだ吸い取り線等を用いて余剰はんだを除去します。
+
+<img width="1631" height="768" alt="image" src="https://github.com/user-attachments/assets/749b644d-1de7-4b95-b099-73c8d8ace3cb" />
+<br/><br/><br/>
+
+- こういう感じになればOK!!（PCBの端子とマイコンの背面端子がちゃんと繋がっている）
+
+<img width="1256" height="801" alt="image" src="https://github.com/user-attachments/assets/163e97a2-b3c9-4fde-b6ae-333a079ee308" />
+<br/><br/><br/>
+
+
+
+- マイコンの背面ホールのはんだ付けに苦戦する方が多いので動画を作りました。簡単です。
+- https://x.com/NetShini/status/1907390264152613021
+![Timeline 1_01_00_00_00](https://github.com/user-attachments/assets/915f85cf-b8ae-48f5-b45c-e734705da629)
+<br/><br/><br/>
+
+
+
+
+
+
+
+
 この時点で7割の作業が終わりです。お疲れ様でした。　　
 <br/><br/>
 
