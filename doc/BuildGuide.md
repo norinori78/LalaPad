@@ -27,7 +27,8 @@
 |滑り止めシール|8枚|
 |M3ネジ|8本|
 
-![2025-03-07_06h03_27](https://github.com/user-attachments/assets/d0671da1-67af-4749-8326-778872f7eb3c)
+<img width="1136" height="1177" alt="image" src="https://github.com/user-attachments/assets/54f5c0d2-7aa2-44bd-a41c-b64557428909" />
+
 <br/><br/><br/>
 ### 別途ご用意いただくもの
 
