@@ -1,0 +1,44 @@
+name: build-lalapad
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [ "main" ]
+    paths:
+      - ".github/workflows/build.yml"
+      - "firmware/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
+          pip3 install west
+
+      - name: Fetch ZMK
+        run: |
+          west init -l firmware
+          west update
+          west zephyr-export
+
+      - name: Build right
+        run: |
+          west build -s zmk/app -d build/right -- -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
+          mkdir -p output
+          cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
+
+      - name: Upload UF2
+        uses: actions/upload-artifact@v4
+        with:
+          name: LalaPad_right_firmware
+          path: output/LalaPad_right.uf2
