@@ -1,4 +1,5 @@
 name: build-lalapad
+
 on:
   workflow_dispatch: {}
   push:
@@ -27,20 +28,22 @@ jobs:
 
       - name: Fetch ZMK
         run: |
+          rm -rf .west
+          west init -m https://github.com/zmkfirmware/zmk.git app
+          west update
+          west zephyr-export
+
+      - name: Build right
+        working-directory: app
+        run: |
           west build -s zmk/app -d build/right -b seeeduino_xiao_ble -- \
             -DSHIELD=lalapad_right_rgbled_adapter \
             -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
-          mkdir -p output
-          cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
-
-      - name: Build right
-        run: |
-          west build -s zmk/app -d build/right -- -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
-          mkdir -p output
-          cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
+          mkdir -p ../output
+          cp build/right/zephyr/zmk.uf2 ../output/LalaPad_right.uf2
 
       - name: Upload UF2
         uses: actions/upload-artifact@v4
         with:
           name: LalaPad_right_firmware
-          path: output/LalaPad_right.uf2
+          path: output/LalaPad
