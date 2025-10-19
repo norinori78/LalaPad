@@ -1,0 +1,40 @@
+.github/workflows/zmk-build.yml
+name: Build LalaPad firmware
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install west and dependencies
+        run: |
+          pip install west
+          sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget
+          west init -l firmware
+          west update
+          west zephyr-export
+          pip install -r zephyr/scripts/requirements.txt
+
+      - name: Build LalaPad firmware
+        run: |
+          cd firmware
+          west build -b seeeduino_xiao_ble -s zmk/app -d build/right -- -DZMK_CONFIG="config/right"
+          west build -b seeeduino_xiao_ble -s zmk/app -d build/left -- -DZMK_CONFIG="config/left"
+
+      - name: Upload firmware artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: lalapad-firmware
+          path: |
+            firmware/build/right/zephyr/zmk.uf2
+            firmware/build/left/zephyr/zmk.uf2
