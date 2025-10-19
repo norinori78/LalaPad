@@ -2,6 +2,11 @@ name: Build LalaPad firmware
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/zmk-build.yml'
+      - 'firmware/**'
 
 jobs:
   build:
