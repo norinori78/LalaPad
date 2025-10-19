@@ -27,7 +27,8 @@ jobs:
 
       - name: Fetch ZMK
         run: |
-          west init -l firmware
+          # ZMKの公式リポジトリを使って初期化
+          west init -m https://github.com/zmkfirmware/zmk.git .
           west update
           west zephyr-export
 
