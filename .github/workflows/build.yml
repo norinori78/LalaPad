@@ -1,17 +1,16 @@
 name: build-lalapad
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
     paths:
       - ".github/workflows/build.yml"
       - "firmware/**"
-  workflow_dispatch: {}
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,31 +22,32 @@ jobs:
 
       - name: Install deps
         run: |
+          set -e
           sudo apt-get update
-          sudo apt-get install -y \
-            git cmake ninja-build gperf ccache dfu-util \
-            device-tree-compiler wget python3-pip
-          pip3 install --upgrade pip
-          pip3 install west
+          sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
+          pip3 install --upgrade west
 
-      # ← ここがポイント：ZMK公式マニフェストで west ワークスペースを作る
       - name: Fetch ZMK
         run: |
           set -e
           rm -rf zmk build || true
-          west init -m https://github.com/zmkfirmware/zmk.git zmk
+          west init -m https://github.com/zmkfirmware/zmk.git --mf app/west.yml zmk
           cd zmk
           west update
           west zephyr-export
 
       - name: Build right
+        working-directory: zmk
+        run: |
+          set -e
+          west build -s app -d build/right -b seeeduino_xiao_ble -- \
+            -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
+
+      - name: Collect UF2
         run: |
           set -e
           mkdir -p output
-          cd zmk
-          west build -s app -d build/right -b seeeduino_xiao_ble -- \
-            -DZMK_CONFIG="$GITHUB_WORKSPACE/firmware/config"
-          cp build/right/zephyr/zmk.uf2 "$GITHUB_WORKSPACE/output/LalaPad_right.uf2"
+          cp zmk/build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
 
       - name: Upload UF2
         uses: actions/upload-artifact@v4
