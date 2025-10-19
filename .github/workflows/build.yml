@@ -24,14 +24,16 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
+          pip3 install --upgrade pip
           pip3 install west
 
       - name: Fetch ZMK
         run: |
           rm -rf app .west
-          mkdir app
+          mkdir -p app
+          # ZMK の manifest は repo 直下ではなく app/west.yml にあるので --mf で明示する
+          west init -m https://github.com/zmkfirmware/zmk.git --mf app/west.yml app
           cd app
-          west init -m https://github.com/zmkfirmware/zmk.git .
           west update
           west zephyr-export
 
