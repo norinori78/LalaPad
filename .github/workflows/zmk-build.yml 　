@@ -1,0 +1,33 @@
+name: Build LalaPad firmware
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install west and dependencies
+        run: |
+          pip install west
+          sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget
+          west init -l firmware
+          west update
+          west zephyr-export
+          west build -s zmk/app -d build/right -- -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
+          mkdir output
+          cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
+
+      - name: Upload firmware artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: LalaPad_right_firmware
+          path: output/LalaPad_right.uf2
