@@ -1,60 +1,6 @@
-name: build-lalapad
-
-on:
-  workflow_dispatch:
-  push:
-    branches: [ "main" ]
-    paths:
-      - ".github/workflows/build.yml"
-      - "firmware/**"
+name: Build ZMK firmware
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      - name: Install deps
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
-          pip3 install west
-
-      - name: Init ZMK workspace
-        run: |
-          rm -rf workspace
-          mkdir -p workspace
-          cd workspace
-
-          # ZMK公式リポジトリからクローン
-          west init -m https://github.com/zmkfirmware/zmk.git
-          cd zmk
-          west update
-          west zephyr-export
-
-      - name: Build right
-        run: |
-          cd workspace
-          west build -s zmk/app -d build/right -b seeeduino_xiao_ble -- \
-            -DZMK_CONFIG=${{ github.workspace }}/config
-          mkdir -p output
-          cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
-
-      - name: Collect UF2
-        if: success()
-        run: |
-          cd workspace
-          ls -lh build/right/zephyr/*.uf2 || true
-
-      - name: Upload UF2
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: LalaPad_right_firmware
-          path: workspace/output/LalaPad_right.uf2
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.2.1
