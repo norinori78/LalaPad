@@ -1,21 +1,22 @@
 name: build-lalapad
 
 on:
-  workflow_dispatch: {}
   push:
     branches: [ "main" ]
     paths:
       - ".github/workflows/build.yml"
       - "firmware/**"
+  workflow_dispatch: {}
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
@@ -23,28 +24,30 @@ jobs:
       - name: Install deps
         run: |
           sudo apt-get update
-          sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
+          sudo apt-get install -y \
+            git cmake ninja-build gperf ccache dfu-util \
+            device-tree-compiler wget python3-pip
           pip3 install --upgrade pip
           pip3 install west
 
+      # ← ここがポイント：ZMK公式マニフェストで west ワークスペースを作る
       - name: Fetch ZMK
         run: |
-          rm -rf app .west
-          mkdir -p app
-          # ZMK の manifest は repo 直下ではなく app/west.yml にあるので --mf で明示する
-          west init -m https://github.com/zmkfirmware/zmk.git --mf app/west.yml app
-          cd app
+          set -e
+          rm -rf zmk build || true
+          west init -m https://github.com/zmkfirmware/zmk.git zmk
+          cd zmk
           west update
           west zephyr-export
 
       - name: Build right
-        working-directory: app
         run: |
-          west build -s zmk/app -d build/right -b seeeduino_xiao_ble -- \
-            -DSHIELD=lalapad_right_rgbled_adapter \
-            -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
-          mkdir -p ../output
-          cp build/right/zephyr/zmk.uf2 ../output/LalaPad_right.uf2
+          set -e
+          mkdir -p output
+          cd zmk
+          west build -s app -d build/right -b seeeduino_xiao_ble -- \
+            -DZMK_CONFIG="$GITHUB_WORKSPACE/firmware/config"
+          cp build/right/zephyr/zmk.uf2 "$GITHUB_WORKSPACE/output/LalaPad_right.uf2"
 
       - name: Upload UF2
         uses: actions/upload-artifact@v4
