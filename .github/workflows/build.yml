@@ -27,10 +27,11 @@ jobs:
 
       - name: Fetch ZMK
         run: |
-          # ZMKの公式リポジトリを使って初期化
-          west init -m https://github.com/zmkfirmware/zmk.git .
-          west update
-          west zephyr-export
+          west build -s zmk/app -d build/right -b seeeduino_xiao_ble -- \
+            -DSHIELD=lalapad_right_rgbled_adapter \
+            -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
+          mkdir -p output
+          cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
 
       - name: Build right
         run: |
