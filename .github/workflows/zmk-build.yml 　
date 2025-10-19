@@ -1,6 +1,5 @@
 name: build-lalapad
-on:
-  workflow_dispatch:
+on: workflow_dispatch:
   push:
     branches: [ main ]
     paths:
