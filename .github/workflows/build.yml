@@ -32,14 +32,9 @@ jobs:
           mkdir -p workspace
           cd workspace
 
-          # 壊れた .west を毎回念のため掃除しつつ、3回までリトライ
-          for i in 1 2 3; do
-            rm -rf .west
-            west init -m https://github.com/zmkfirmware/zmk --mf west.yml --mr main && break
-            echo "west init failed...retrying ($i)"
-            sleep 3
-          done
-
+          # ZMK公式リポジトリからクローン
+          west init -m https://github.com/zmkfirmware/zmk.git
+          cd zmk
           west update
           west zephyr-export
 
@@ -47,7 +42,7 @@ jobs:
         run: |
           cd workspace
           west build -s zmk/app -d build/right -b seeeduino_xiao_ble -- \
-            -DZMK_CONFIG=${{ github.workspace }}/firmware/config
+            -DZMK_CONFIG=${{ github.workspace }}/config
           mkdir -p output
           cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
 
