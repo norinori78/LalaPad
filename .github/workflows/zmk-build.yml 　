@@ -1,7 +1,6 @@
 name: build-lalapad
 on: workflow_dispatch:
-  push:
-    branches: [ main ]
+push:branches: [ main ]
     paths:
       - ".github/workflows/zmk-build.yml"
       - "firmware/**"
