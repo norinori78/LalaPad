@@ -27,27 +27,34 @@ jobs:
           sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
           pip3 install --upgrade west
 
-      - name: Fetch ZMK
+      # ここでワークスペース zmk/ を作成
+      - name: Init ZMK workspace
         run: |
           set -e
-          rm -rf zmk build || true
-          # ZMK公式リポジトリから取得
+          rm -rf zmk build output || true
           west init -m https://github.com/zmkfirmware/zmk.git --mf app/west.yml zmk
+
+      # 以降は zmk/ の中で west を実行する
+      - name: Fetch ZMK (west update/export)
+        working-directory: zmk
+        run: |
+          set -e
           west update
           west zephyr-export
           west list
 
       - name: Build right
+        working-directory: zmk
         run: |
           set -e
-          west build -s zmk/app -d build/right -b seeeduino_xiao_ble -- \
+          west build -s app -d build/right -b seeeduino_xiao_ble -- \
             -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
 
       - name: Collect UF2
         run: |
           set -e
           mkdir -p output
-          cp build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
+          cp zmk/build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
 
       - name: Upload UF2
         uses: actions/upload-artifact@v4
