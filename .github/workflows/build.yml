@@ -11,6 +11,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      # ←XIAO の種類に合わせて片方を使ってね
+      BOARD: seeeduino_xiao_ble_sense     # XIAO BLE **Sense**（あなたの表示が「XIAO-SENSE」ならコレ）
+      # BOARD: seeeduino_xiao_ble         # 無印 XIAO BLE の人はコチラ
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,43 +24,30 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
       - name: Install deps
         run: |
-          set -e
           sudo apt-get update
-          sudo apt-get install -y cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
-          pip3 install --upgrade west
+          sudo apt-get install -y git cmake ninja-build gperf ccache dfu-util device-tree-compiler wget python3-pip
+          pip install --upgrade pip west
 
-      # ここでワークスペース zmk/ を作成
       - name: Init ZMK workspace
         run: |
-          set -e
-          rm -rf zmk build output || true
-          west init -m https://github.com/zmkfirmware/zmk.git --mf app/west.yml zmk
-
-      # 以降は zmk/ の中で west を実行する
-      - name: Fetch ZMK (west update/export)
-        working-directory: zmk
-        run: |
-          set -e
+          rm -rf workspace
+          mkdir -p workspace
+          cd workspace
+          west init -m https://github.com/zmkfirmware/zmk.git
           west update
           west zephyr-export
-          west list
 
       - name: Build right
-        working-directory: zmk
+        working-directory: workspace
         run: |
-          set -e
-          west build -s app -d build/right -b seeeduino_xiao_ble -- \
+          west build -s zmk/app -d build/right -b "${BOARD}" -- \
             -DZMK_CONFIG="${{ github.workspace }}/firmware/config"
-
-      - name: Collect UF2
-        run: |
-          set -e
-          mkdir -p output
-          cp zmk/build/right/zephyr/zmk.uf2 output/LalaPad_right.uf2
+          mkdir -p "${{ github.workspace }}/output"
+          cp build/right/zephyr/zmk.uf2 "${{ github.workspace }}/output/LalaPad_right.uf2"
 
       - name: Upload UF2
         uses: actions/upload-artifact@v4
